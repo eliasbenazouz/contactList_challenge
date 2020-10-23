@@ -1,0 +1,26 @@
+.formPage {
+  margin-top: 8vh;
+  text-align: center;
+  width: 250px;
+  border-radius: 9px;
+  border: 2px solid rgb(59, 89, 152);
+  padding: 15px;
+}
+
+.formPage__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formPage__form label {
+  margin-top: 13px;
+}
+
+.formPage button {
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.formPage input:focus {
+  outline: none;
+}

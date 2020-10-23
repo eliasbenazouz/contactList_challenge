@@ -1,0 +1,35 @@
+.contactCard {
+  background-color: rgb(59, 89, 152);
+  border-radius: 29px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  width: 200px;
+  margin-top: 5px;
+}
+
+.contactCard img {
+  height: 150px;
+  width: 150px;
+  margin-bottom: 15px;
+}
+
+.contactCard p {
+  font-size: 18px;
+}
+
+.contactCard button {
+  border: white;
+  background-color: white;
+  color: rgb(59, 89, 152);
+  padding: 4px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+.contactCard__buttons {
+  display: flex;
+}
